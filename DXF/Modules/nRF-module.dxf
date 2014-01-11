@@ -41,6 +41,10 @@ $INSUNITS
  70
 4
   9
+$DIMSTYLE
+  2
+Standard
+  9
 $DIMEXO
  40
 0.625
@@ -899,7 +903,7 @@ LAYER
 100
 AcDbSymbolTable
  70
-4
+3
   0
 LAYER
   5
@@ -929,7 +933,7 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-SF-MLP3115A2_Board
+nRF_Board
  70
 0
  62
@@ -949,31 +953,11 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-SF-MLP3115A2_Pins
+nRF_Pins
  70
 0
  62
 4
-  6
-CONTINUOUS
-370
-0
-390
-F
-  0
-LAYER
-  5
-45
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-SF-MLP3115A2_MountingHoles
- 70
-0
- 62
-1
   6
 CONTINUOUS
 370
@@ -1307,13 +1291,13 @@ ENTITIES
   0
 LINE
   5
-46
+45
 100
 AcDbEntity
 100
 AcDbLine
   8
-SF-MLP3115A2_Board
+nRF_Board
  62
 256
 370
@@ -1327,9 +1311,37 @@ ByLayer
  30
 0.0
  11
-18.3999999999999986
+29.0
  21
 0.0
+ 31
+0.0
+  0
+LINE
+  5
+46
+100
+AcDbEntity
+100
+AcDbLine
+  8
+nRF_Board
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 11
+0.0000000000000009
+ 21
+15.0
  31
 0.0
   0
@@ -1341,7 +1353,7 @@ AcDbEntity
 100
 AcDbLine
   8
-SF-MLP3115A2_Board
+nRF_Board
  62
 256
 370
@@ -1349,15 +1361,15 @@ SF-MLP3115A2_Board
   6
 ByLayer
  10
-0.0
+29.0
  20
 0.0
  30
 0.0
  11
-0.000000000000001
+29.0
  21
-15.75
+15.0
  31
 0.0
   0
@@ -1369,7 +1381,7 @@ AcDbEntity
 100
 AcDbLine
   8
-SF-MLP3115A2_Board
+nRF_Board
  62
 256
 370
@@ -1377,27 +1389,27 @@ SF-MLP3115A2_Board
   6
 ByLayer
  10
-18.3999999999999986
+0.0000000000000009
  20
-0.0
+15.0
  30
 0.0
  11
-18.3999999999999986
+29.0
  21
-15.75
+15.0
  31
 0.0
   0
-LINE
+CIRCLE
   5
 49
 100
 AcDbEntity
 100
-AcDbLine
+AcDbCircle
   8
-SF-MLP3115A2_Board
+nRF_Pins
  62
 256
 370
@@ -1405,17 +1417,13 @@ SF-MLP3115A2_Board
   6
 ByLayer
  10
-0.000000000000001
+1.2700000000000007
  20
-15.75
+13.7300000000000004
  30
 0.0
- 11
-18.3999999999999986
- 21
-15.75
- 31
-0.0
+ 40
+0.635
   0
 CIRCLE
   5
@@ -1425,7 +1433,7 @@ AcDbEntity
 100
 AcDbCircle
   8
-SF-MLP3115A2_Pins
+nRF_Pins
  62
 256
 370
@@ -1433,9 +1441,9 @@ SF-MLP3115A2_Pins
   6
 ByLayer
  10
-1.2699999999999996
+3.8100000000000005
  20
-1.27
+13.7300000000000004
  30
 0.0
  40
@@ -1449,7 +1457,7 @@ AcDbEntity
 100
 AcDbCircle
   8
-SF-MLP3115A2_Pins
+nRF_Pins
  62
 256
 370
@@ -1457,9 +1465,9 @@ SF-MLP3115A2_Pins
   6
 ByLayer
  10
-1.2699999999999996
+1.2700000000000002
  20
-3.8100000000000001
+11.1900000000000013
  30
 0.0
  40
@@ -1473,7 +1481,7 @@ AcDbEntity
 100
 AcDbCircle
   8
-SF-MLP3115A2_Pins
+nRF_Pins
  62
 256
 370
@@ -1481,9 +1489,9 @@ SF-MLP3115A2_Pins
   6
 ByLayer
  10
-1.2699999999999996
+3.8100000000000001
  20
-6.3499999999999996
+11.1900000000000013
  30
 0.0
  40
@@ -1497,7 +1505,7 @@ AcDbEntity
 100
 AcDbCircle
   8
-SF-MLP3115A2_Pins
+nRF_Pins
  62
 256
 370
@@ -1505,9 +1513,9 @@ SF-MLP3115A2_Pins
   6
 ByLayer
  10
-1.2699999999999996
+1.2699999999999998
  20
-8.8900000000000006
+8.6500000000000021
  30
 0.0
  40
@@ -1521,7 +1529,7 @@ AcDbEntity
 100
 AcDbCircle
   8
-SF-MLP3115A2_Pins
+nRF_Pins
  62
 256
 370
@@ -1529,9 +1537,9 @@ SF-MLP3115A2_Pins
   6
 ByLayer
  10
-1.2699999999999996
+3.8099999999999996
  20
-11.4299999999999997
+8.6500000000000021
  30
 0.0
  40
@@ -1545,7 +1553,7 @@ AcDbEntity
 100
 AcDbCircle
   8
-SF-MLP3115A2_Pins
+nRF_Pins
  62
 256
 370
@@ -1553,9 +1561,9 @@ SF-MLP3115A2_Pins
   6
 ByLayer
  10
-1.2699999999999996
+1.2699999999999994
  20
-13.9699999999999989
+6.110000000000003
  30
 0.0
  40
@@ -1569,7 +1577,7 @@ AcDbEntity
 100
 AcDbCircle
   8
-SF-MLP3115A2_MountingHoles
+nRF_Pins
  62
 256
 370
@@ -1577,23 +1585,23 @@ SF-MLP3115A2_MountingHoles
   6
 ByLayer
  10
-15.8000000000000007
+3.8099999999999992
  20
-2.54
+6.110000000000003
  30
 0.0
  40
-1.7
+0.635
   0
-CIRCLE
+MTEXT
   5
 51
 100
 AcDbEntity
 100
-AcDbCircle
+AcDbMText
   8
-SF-MLP3115A2_MountingHoles
+nRF_Pins
  62
 256
 370
@@ -1601,13 +1609,309 @@ SF-MLP3115A2_MountingHoles
   6
 ByLayer
  10
-15.8000000000000025
+-0.2299999999999993
  20
-13.2100000000000009
+13.7300000000000004
  30
 0.0
  40
-1.7
+1.0
+ 41
+100.0
+ 71
+6
+ 72
+0
+  1
+GND
+  7
+normallatin1
+ 50
+0.0
+ 73
+1
+ 44
+1.0
+  0
+MTEXT
+  5
+52
+100
+AcDbEntity
+100
+AcDbMText
+  8
+nRF_Pins
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+-0.2299999999999998
+ 20
+11.1900000000000013
+ 30
+0.0
+ 40
+1.0
+ 41
+100.0
+ 71
+6
+ 72
+0
+  1
+CE
+  7
+normallatin1
+ 50
+0.0
+ 73
+1
+ 44
+1.0
+  0
+MTEXT
+  5
+53
+100
+AcDbEntity
+100
+AcDbMText
+  8
+nRF_Pins
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+-0.2300000000000002
+ 20
+8.6500000000000021
+ 30
+0.0
+ 40
+1.0
+ 41
+100.0
+ 71
+6
+ 72
+0
+  1
+SCK
+  7
+normallatin1
+ 50
+0.0
+ 73
+1
+ 44
+1.0
+  0
+MTEXT
+  5
+54
+100
+AcDbEntity
+100
+AcDbMText
+  8
+nRF_Pins
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+-0.2300000000000006
+ 20
+6.110000000000003
+ 30
+0.0
+ 40
+1.0
+ 41
+100.0
+ 71
+6
+ 72
+0
+  1
+MISO
+  7
+normallatin1
+ 50
+0.0
+ 73
+1
+ 44
+1.0
+  0
+MTEXT
+  5
+55
+100
+AcDbEntity
+100
+AcDbMText
+  8
+nRF_Pins
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+5.3100000000000005
+ 20
+13.7300000000000004
+ 30
+0.0
+ 40
+1.0
+ 41
+100.0
+ 71
+4
+ 72
+0
+  1
+Vcc
+  7
+normallatin1
+ 50
+0.0
+ 73
+1
+ 44
+1.0
+  0
+MTEXT
+  5
+56
+100
+AcDbEntity
+100
+AcDbMText
+  8
+nRF_Pins
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+5.3100000000000005
+ 20
+11.1900000000000013
+ 30
+0.0
+ 40
+1.0
+ 41
+100.0
+ 71
+4
+ 72
+0
+  1
+CSN
+  7
+normallatin1
+ 50
+0.0
+ 73
+1
+ 44
+1.0
+  0
+MTEXT
+  5
+57
+100
+AcDbEntity
+100
+AcDbMText
+  8
+nRF_Pins
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+5.3099999999999996
+ 20
+8.6500000000000021
+ 30
+0.0
+ 40
+1.0
+ 41
+100.0
+ 71
+4
+ 72
+0
+  1
+MOSI
+  7
+normallatin1
+ 50
+0.0
+ 73
+1
+ 44
+1.0
+  0
+MTEXT
+  5
+58
+100
+AcDbEntity
+100
+AcDbMText
+  8
+nRF_Pins
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+5.3099999999999987
+ 20
+6.110000000000003
+ 30
+0.0
+ 40
+1.0
+ 41
+100.0
+ 71
+4
+ 72
+0
+  1
+IRQ
+  7
+normallatin1
+ 50
+0.0
+ 73
+1
+ 44
+1.0
   0
 ENDSEC
   0
@@ -1647,7 +1951,7 @@ E
   3
 AcDbVariableDictionary
 350
-52
+59
   0
 DICTIONARY
   5
@@ -2111,7 +2415,7 @@ Layout2
   0
 DICTIONARY
   5
-52
+59
 100
 AcDbDictionary
 281
@@ -2119,15 +2423,15 @@ AcDbDictionary
   3
 DIMASSOC
 350
-54
+5B
   3
 HIDETEXT
 350
-53
+5A
   0
 DICTIONARYVAR
   5
-53
+5A
 100
 DictionaryVariables
 280
@@ -2137,7 +2441,7 @@ DictionaryVariables
   0
 DICTIONARYVAR
   5
-54
+5B
 100
 DictionaryVariables
 280
