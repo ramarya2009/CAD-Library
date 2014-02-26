@@ -65,7 +65,7 @@ module bubblescope_mount()
   difference()
   {
     bracket_a(30, 30);
-    scope_bracket(6.875, 5);
+    scope_bracket(7, 5);
   }
 }
 
