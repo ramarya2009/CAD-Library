@@ -46,4 +46,4 @@ module SMAMounting(thickness, centres, radius)
 }
 
 rotate([0, -90, 0])
-  SMAMounting(3, 25, 2.5);
+  SMAMounting(5, 25, 2.5);
