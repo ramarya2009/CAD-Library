@@ -13,75 +13,9 @@ $HANDSEED
   5
 FFFF
   9
-$SPLINESEGS
- 70
-8
-  9
-$DIMEXE
- 40
-1.25
-  9
-$PSVPSCALE
- 40
-1.0
-  9
-$DIMLUNIT
- 70
-2
-  9
-$GRIDMODE
- 70
-1
-  9
-$INSUNITS
- 70
-4
-  9
-$DIMADEC
- 70
-2
-  9
 $DIMASZ
  40
 2.5
-  9
-$DIMGAP
- 40
-0.625
-  9
-$DIMTXT
- 40
-2.5
-  9
-$GRIDUNIT
- 10
-0.0
- 20
-0.0
-  9
-$DIMEXO
- 40
-0.625
-  9
-$LUPREC
- 70
-4
-  9
-$PINSBASE
- 10
-2.0165859330687255
- 20
-41.912010372038537
- 30
-0.0
-  9
-$DIMAUNIT
- 70
-0
-  9
-$AUPREC
- 70
-2
   9
 $PLIMMIN
  10
@@ -89,23 +23,31 @@ $PLIMMIN
  20
 0.0
   9
-$LUNITS
- 70
-2
+$DIMEXE
+ 40
+1.25
+  9
+$DIMGAP
+ 40
+0.625
   9
 $PLIMMAX
  10
-150.0
+210.0
  20
-300.0
+297.0
   9
-$DIMSTYLE
-  2
-Standard
-  9
-$AUNITS
+$INSUNITS
  70
-0
+4
+  9
+$DIMEXO
+ 40
+0.625
+  9
+$DIMTXT
+ 40
+2.5
   0
 ENDSEC
   0
@@ -987,7 +929,7 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-TabletPanel
+Spacers_6.1x20mm
  70
 0
  62
@@ -1323,15 +1265,15 @@ SECTION
   2
 ENTITIES
   0
-LINE
+CIRCLE
   5
 44
 100
 AcDbEntity
 100
-AcDbLine
+AcDbCircle
   8
-TabletPanel
+Spacers_6.1x20mm
  62
 256
 370
@@ -1339,27 +1281,23 @@ TabletPanel
   6
 ByLayer
  10
-27.640619315360482
+0.0
  20
-232.66364857384875
+0.0
  30
 0.0
- 11
-17.896918667508317
- 21
-230.41413803041013
- 31
-0.0
+ 40
+3.0499999999999998
   0
-LINE
+CIRCLE
   5
 45
 100
 AcDbEntity
 100
-AcDbLine
+AcDbCircle
   8
-TabletPanel
+Spacers_6.1x20mm
  62
 256
 370
@@ -1367,27 +1305,23 @@ TabletPanel
   6
 ByLayer
  10
-89.351279058042266
+0.0
  20
-26.026943065410563
+0.0
  30
 0.0
- 11
-29.155468687244351
- 21
-248.00096049493536
- 31
-0.0
+ 40
+10.0
   0
-LINE
+CIRCLE
   5
 46
 100
 AcDbEntity
 100
-AcDbLine
+AcDbCircle
   8
-TabletPanel
+Spacers_6.1x20mm
  62
 256
 370
@@ -1395,27 +1329,23 @@ TabletPanel
   6
 ByLayer
  10
-69.980404813873406
+20.0
  20
-0.7924426531837341
+0.0
  30
 0.0
- 11
-8.9693748121273273
- 21
-1.0000521058248495
- 31
-0.0
+ 40
+3.0499999999999998
   0
-LINE
+CIRCLE
   5
 47
 100
 AcDbEntity
 100
-AcDbLine
+AcDbCircle
   8
-TabletPanel
+Spacers_6.1x20mm
  62
 256
 370
@@ -1423,107 +1353,85 @@ TabletPanel
   6
 ByLayer
  10
-9.5121996699876945
+20.0
  20
-245.78705802619692
+0.0
  30
 0.0
- 11
-0.0073261064722061
- 21
-10.36306506946222
- 31
-0.0
+ 40
+10.0
   0
-ARC
+CIRCLE
   5
 48
 100
 AcDbEntity
+100
+AcDbCircle
   8
-TabletPanel
+Spacers_6.1x20mm
  62
 256
 370
 -1
   6
 ByLayer
-100
-AcDbCircle
  10
-19.504059551685245
+40.0
  20
-245.38365239346112
+0.0
  30
 0.0
  40
-10.0
-100
-AcDbArc
- 50
-15.172787111007644
- 51
-177.68802862317622
+3.0499999999999998
   0
-ARC
+CIRCLE
   5
 49
 100
 AcDbEntity
+100
+AcDbCircle
   8
-TabletPanel
+Spacers_6.1x20mm
  62
 256
 370
 -1
   6
 ByLayer
-100
-AcDbCircle
  10
-9.0
+40.0
  20
-10.0
+0.0
  30
 0.0
  40
-9.0
-100
-AcDbArc
- 50
-177.68802862317594
- 51
-269.80503362242291
+10.0
   0
-ARC
+CIRCLE
   5
 4A
 100
 AcDbEntity
+100
+AcDbCircle
   8
-TabletPanel
+Spacers_6.1x20mm
  62
 256
 370
 -1
   6
 ByLayer
-100
-AcDbCircle
  10
-70.048460786923783
+60.0
  20
-20.792326862461849
+0.0
  30
 0.0
  40
-20.0
-100
-AcDbArc
- 50
-269.8050336224228
- 51
-14.597521156632142
+3.0499999999999998
   0
 CIRCLE
   5
@@ -1533,7 +1441,7 @@ AcDbEntity
 100
 AcDbCircle
   8
-TabletPanel
+Spacers_6.1x20mm
  62
 256
 370
@@ -1541,13 +1449,13 @@ TabletPanel
   6
 ByLayer
  10
-19.504059551685245
+60.0
  20
-245.38365239346112
+0.0
  30
 0.0
  40
-3.1000000000000001
+10.0
   0
 CIRCLE
   5
@@ -1557,7 +1465,7 @@ AcDbEntity
 100
 AcDbCircle
   8
-TabletPanel
+Spacers_6.1x20mm
  62
 256
 370
@@ -1565,13 +1473,13 @@ TabletPanel
   6
 ByLayer
  10
-10.0
+80.0
  20
-10.0
+0.0
  30
 0.0
  40
-3.1000000000000001
+3.0499999999999998
   0
 CIRCLE
   5
@@ -1581,7 +1489,7 @@ AcDbEntity
 100
 AcDbCircle
   8
-TabletPanel
+Spacers_6.1x20mm
  62
 256
 370
@@ -1589,97 +1497,13 @@ TabletPanel
   6
 ByLayer
  10
-70.048460786923783
+80.0
  20
-20.792326862461849
+0.0
  30
 0.0
  40
-3.1000000000000001
-  0
-LINE
-  5
-4E
-100
-AcDbEntity
-100
-AcDbLine
-  8
-TabletPanel
- 62
-256
-370
--1
-  6
-ByLayer
- 10
-68.581711205943876
- 20
-55.328296782935901
- 30
-0.0
- 11
-58.838010558091604
- 21
-53.078786239497319
- 31
-0.0
-  0
-LINE
-  5
-4F
-100
-AcDbEntity
-100
-AcDbLine
-  8
-TabletPanel
- 62
-256
-370
--1
-  6
-ByLayer
- 10
-17.896918667508317
- 20
-230.41413803041013
- 30
-0.0
- 11
-58.83801055809159
- 21
-53.078786239497312
- 31
-0.0
-  0
-LINE
-  5
-50
-100
-AcDbEntity
-100
-AcDbLine
-  8
-TabletPanel
- 62
-256
-370
--1
-  6
-ByLayer
- 10
-68.581711205943861
- 20
-55.328296782935901
- 30
-0.0
- 11
-27.640619315360482
- 21
-232.66364857384875
- 31
-0.0
+10.0
   0
 ENDSEC
   0
@@ -1719,7 +1543,7 @@ E
   3
 AcDbVariableDictionary
 350
-51
+4E
   0
 DICTIONARY
   5
@@ -2183,7 +2007,7 @@ Layout2
   0
 DICTIONARY
   5
-51
+4E
 100
 AcDbDictionary
 281
@@ -2191,15 +2015,15 @@ AcDbDictionary
   3
 DIMASSOC
 350
-53
+50
   3
 HIDETEXT
 350
-52
+4F
   0
 DICTIONARYVAR
   5
-52
+4F
 100
 DictionaryVariables
 280
@@ -2209,7 +2033,7 @@ DictionaryVariables
   0
 DICTIONARYVAR
   5
-53
+50
 100
 DictionaryVariables
 280
