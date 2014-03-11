@@ -37,6 +37,18 @@ $PLIMMAX
  20
 297.0
   9
+$PSVPSCALE
+ 40
+1.0
+  9
+$PINSBASE
+ 10
+7.160377358490571
+ 20
+145.3301886792454
+ 30
+0.0
+  9
 $INSUNITS
  70
 4
@@ -2389,11 +2401,13 @@ ByLayer
  31
 0.0
   0
-ARC
+LINE
   5
 6C
 100
 AcDbEntity
+100
+AcDbLine
   8
 Panel
  62
@@ -2402,22 +2416,18 @@ Panel
 -1
   6
 ByLayer
-100
-AcDbCircle
  10
-18.0
+10.0
  20
-117.0
+30.0
  30
 0.0
- 40
-3.0
-100
-AcDbArc
- 50
-90.0
- 51
-180.0
+ 11
+29.0
+ 21
+30.0
+ 31
+0.0
   0
 LINE
   5
@@ -2435,23 +2445,25 @@ Panel
   6
 ByLayer
  10
-18.0
+10.0
  20
-120.0
+30.0
  30
 0.0
  11
-22.0
+10.0
  21
-120.0
+37.0
  31
 0.0
   0
-ARC
+LINE
   5
 6E
 100
 AcDbEntity
+100
+AcDbLine
   8
 Panel
  62
@@ -2460,22 +2472,18 @@ Panel
 -1
   6
 ByLayer
-100
-AcDbCircle
  10
-22.0
+29.0
  20
-117.0
+30.0
  30
 0.0
- 40
-3.0
-100
-AcDbArc
- 50
+ 11
+29.0
+ 21
+37.0
+ 31
 0.0
- 51
-90.0
   0
 LINE
   5
@@ -2493,23 +2501,25 @@ Panel
   6
 ByLayer
  10
-25.0
+10.0
  20
-117.0
+37.0
  30
 0.0
  11
-25.0
+29.0
  21
-73.0
+37.0
  31
 0.0
   0
-ARC
+CIRCLE
   5
 70
 100
 AcDbEntity
+100
+AcDbCircle
   8
 Panel
  62
@@ -2518,804 +2528,14 @@ Panel
 -1
   6
 ByLayer
-100
-AcDbCircle
  10
-22.0
+20.0
  20
-73.0
+115.0
  30
 0.0
  40
-3.0
-100
-AcDbArc
- 50
-270.0
- 51
-0.0
-  0
-LINE
-  5
-71
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Panel
- 62
-256
-370
--1
-  6
-ByLayer
- 10
-22.0
- 20
-70.0
- 30
-0.0
- 11
-18.0
- 21
-70.0
- 31
-0.0
-  0
-LINE
-  5
-72
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Panel
- 62
-256
-370
--1
-  6
-ByLayer
- 10
-15.0
- 20
-73.0
- 30
-0.0
- 11
-15.0
- 21
-117.0
- 31
-0.0
-  0
-ARC
-  5
-73
-100
-AcDbEntity
-  8
-Panel
- 62
-256
-370
--1
-  6
-ByLayer
-100
-AcDbCircle
- 10
-18.0
- 20
-73.0
- 30
-0.0
- 40
-3.0
-100
-AcDbArc
- 50
-180.0
- 51
-270.0
-  0
-ARC
-  5
-74
-100
-AcDbEntity
-  8
-Panel
- 62
-256
-370
--1
-  6
-ByLayer
-100
-AcDbCircle
- 10
-38.0
- 20
-77.0
- 30
-0.0
- 40
-3.0
-100
-AcDbArc
- 50
-90.0
- 51
-180.0
-  0
-LINE
-  5
-75
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Panel
- 62
-256
-370
--1
-  6
-ByLayer
- 10
-38.0
- 20
-80.0
- 30
-0.0
- 11
-42.0
- 21
-80.0
- 31
-0.0
-  0
-ARC
-  5
-76
-100
-AcDbEntity
-  8
-Panel
- 62
-256
-370
--1
-  6
-ByLayer
-100
-AcDbCircle
- 10
-42.0
- 20
-77.0
- 30
-0.0
- 40
-3.0
-100
-AcDbArc
- 50
-0.0
- 51
-90.0
-  0
-ARC
-  5
-77
-100
-AcDbEntity
-  8
-Panel
- 62
-256
-370
--1
-  6
-ByLayer
-100
-AcDbCircle
- 10
-58.0
- 20
-73.0
- 30
-0.0
- 40
-3.0
-100
-AcDbArc
- 50
-180.0
- 51
-270.0
-  0
-LINE
-  5
-78
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Panel
- 62
-256
-370
--1
-  6
-ByLayer
- 10
-62.0
- 20
-70.0
- 30
-0.0
- 11
-58.0
- 21
-70.0
- 31
-0.0
-  0
-ARC
-  5
-79
-100
-AcDbEntity
-  8
-Panel
- 62
-256
-370
--1
-  6
-ByLayer
-100
-AcDbCircle
- 10
-62.0
- 20
-73.0
- 30
-0.0
- 40
-3.0
-100
-AcDbArc
- 50
-270.0
- 51
-0.0
-  0
-ARC
-  5
-7A
-100
-AcDbEntity
-  8
-Panel
- 62
-256
-370
--1
-  6
-ByLayer
-100
-AcDbCircle
- 10
-78.0
- 20
-77.0
- 30
-0.0
- 40
-3.0
-100
-AcDbArc
- 50
-90.0
- 51
-180.0
-  0
-LINE
-  5
-7B
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Panel
- 62
-256
-370
--1
-  6
-ByLayer
- 10
-78.0
- 20
-80.0
- 30
-0.0
- 11
-82.0
- 21
-80.0
- 31
-0.0
-  0
-ARC
-  5
-7C
-100
-AcDbEntity
-  8
-Panel
- 62
-256
-370
--1
-  6
-ByLayer
-100
-AcDbCircle
- 10
-82.0
- 20
-77.0
- 30
-0.0
- 40
-3.0
-100
-AcDbArc
- 50
-0.0
- 51
-90.0
-  0
-LINE
-  5
-7D
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Panel
- 62
-256
-370
--1
-  6
-ByLayer
- 10
-55.0
- 20
-73.0
- 30
-0.0
- 11
-55.0
- 21
-117.0
- 31
-0.0
-  0
-ARC
-  5
-7E
-100
-AcDbEntity
-  8
-Panel
- 62
-256
-370
--1
-  6
-ByLayer
-100
-AcDbCircle
- 10
-58.0
- 20
-117.0
- 30
-0.0
- 40
-3.0
-100
-AcDbArc
- 50
-90.0
- 51
-180.0
-  0
-LINE
-  5
-7F
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Panel
- 62
-256
-370
--1
-  6
-ByLayer
- 10
-58.0
- 20
-120.0
- 30
-0.0
- 11
-62.0
- 21
-120.0
- 31
-0.0
-  0
-LINE
-  5
-80
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Panel
- 62
-256
-370
--1
-  6
-ByLayer
- 10
-65.0
- 20
-117.0
- 30
-0.0
- 11
-65.0
- 21
-73.0
- 31
-0.0
-  0
-ARC
-  5
-81
-100
-AcDbEntity
-  8
-Panel
- 62
-256
-370
--1
-  6
-ByLayer
-100
-AcDbCircle
- 10
-62.0
- 20
-117.0
- 30
-0.0
- 40
-3.0
-100
-AcDbArc
- 50
-0.0
- 51
-90.0
-  0
-LINE
-  5
-82
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Panel
- 62
-256
-370
--1
-  6
-ByLayer
- 10
-45.0
- 20
-77.0
- 30
-0.0
- 11
-45.0
- 21
-33.0
- 31
-0.0
-  0
-ARC
-  5
-83
-100
-AcDbEntity
-  8
-Panel
- 62
-256
-370
--1
-  6
-ByLayer
-100
-AcDbCircle
- 10
-42.0
- 20
-33.0
- 30
-0.0
- 40
-3.0
-100
-AcDbArc
- 50
-270.0
- 51
-0.0
-  0
-LINE
-  5
-84
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Panel
- 62
-256
-370
--1
-  6
-ByLayer
- 10
-42.0
- 20
-30.0
- 30
-0.0
- 11
-38.0
- 21
-30.0
- 31
-0.0
-  0
-LINE
-  5
-85
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Panel
- 62
-256
-370
--1
-  6
-ByLayer
- 10
-35.0
- 20
-33.0
- 30
-0.0
- 11
-35.0
- 21
-77.0
- 31
-0.0
-  0
-ARC
-  5
-86
-100
-AcDbEntity
-  8
-Panel
- 62
-256
-370
--1
-  6
-ByLayer
-100
-AcDbCircle
- 10
-38.0
- 20
-33.0
- 30
-0.0
- 40
-3.0
-100
-AcDbArc
- 50
-180.0
- 51
-270.0
-  0
-LINE
-  5
-87
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Panel
- 62
-256
-370
--1
-  6
-ByLayer
- 10
-75.0
- 20
-33.0
- 30
-0.0
- 11
-75.0
- 21
-77.0
- 31
-0.0
-  0
-ARC
-  5
-88
-100
-AcDbEntity
-  8
-Panel
- 62
-256
-370
--1
-  6
-ByLayer
-100
-AcDbCircle
- 10
-78.0
- 20
-33.0
- 30
-0.0
- 40
-3.0
-100
-AcDbArc
- 50
-180.0
- 51
-270.0
-  0
-LINE
-  5
-89
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Panel
- 62
-256
-370
--1
-  6
-ByLayer
- 10
-82.0
- 20
-30.0
- 30
-0.0
- 11
-78.0
- 21
-30.0
- 31
-0.0
-  0
-LINE
-  5
-8A
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Panel
- 62
-256
-370
--1
-  6
-ByLayer
- 10
-85.0
- 20
-77.0
- 30
-0.0
- 11
-85.0
- 21
-33.0
- 31
-0.0
-  0
-ARC
-  5
-8B
-100
-AcDbEntity
-  8
-Panel
- 62
-256
-370
--1
-  6
-ByLayer
-100
-AcDbCircle
- 10
-82.0
- 20
-33.0
- 30
-0.0
- 40
-3.0
-100
-AcDbArc
- 50
-270.0
- 51
-0.0
+4.0
   0
 ENDSEC
   0
@@ -3355,7 +2575,7 @@ E
   3
 AcDbVariableDictionary
 350
-8C
+71
   0
 DICTIONARY
   5
@@ -3819,7 +3039,7 @@ Layout2
   0
 DICTIONARY
   5
-8C
+71
 100
 AcDbDictionary
 281
@@ -3827,15 +3047,15 @@ AcDbDictionary
   3
 DIMASSOC
 350
-8E
+73
   3
 HIDETEXT
 350
-8D
+72
   0
 DICTIONARYVAR
   5
-8D
+72
 100
 DictionaryVariables
 280
@@ -3845,7 +3065,7 @@ DictionaryVariables
   0
 DICTIONARYVAR
   5
-8E
+73
 100
 DictionaryVariables
 280
