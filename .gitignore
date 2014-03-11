@@ -1,2 +1,7 @@
-#Temp. files
+# Temp. files
 *~
+
+# KiCAD temp files
+*.bak
+*.000
+*.net
