@@ -1,3 +1,5 @@
+include <../../SCAD/primitives/rounded_rect.scad>
+
 module RetentionClip()
 {
 	rotate([0, 180, 0])
@@ -6,7 +8,7 @@ module RetentionClip()
 		{
 			difference()
 			{
-				cube([50, 18, 18]);
+        RoundedRect(50, 18, 18, 3);
 				translate([40, 9, -0.1])
 				union()
 				{
