@@ -42,11 +42,15 @@ module piCameraAdapter() {
 	}
 }
 
-piCameraAdapter();
 rotate([0, 180, 0])
-  translate([0, 0, 4])
-	difference()
+	union()
 	{
-      bubblescope_mount();
-		mountingHoles();
+		piCameraAdapter();
+		rotate([0, 180, 0])
+			translate([0, 0, 4])
+				difference()
+				{
+					bubblescope_mount();
+					mountingHoles();
+				}
 	}
