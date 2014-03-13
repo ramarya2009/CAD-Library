@@ -1,8 +1,5 @@
 include <../primitives/rounded_rect.scad>
 
-function r_from_dia(d) = d / 2;
-function midValue(a,b) = ( a + b ) / 2;
-
 module cableOpening() {
 	translate([0,14,3])
 		cube(size=[17,12.1,4.1],center=true);
@@ -18,14 +15,14 @@ module chipOpening() {
 module lensOpening() {
 	clearance = 0.5;
 	c = 2 * clearance;
-	translate([0,0,-2.51])
-		cube(size=[8+c,8+c,5.1], center=true);
+	translate([0,0,-2.5])
+		cube(size=[8+c,8+c,6], center=true);
 }
 
 module boardOpening() {
 	clearance = 0.5;
 	c = 2 * clearance;
-	translate([0,-3,2.5])
+	translate([0,-3,3])
 		cube(size=[25+c,24+c,5.1], center=true);
 }
 

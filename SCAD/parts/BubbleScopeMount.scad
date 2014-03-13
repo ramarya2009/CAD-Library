@@ -1,12 +1,5 @@
 include <../primitives/circle_slice.scad>
 
-module bracket_a(w, h)
-{
-  translate([-w/2, -h/2, 0])
-    cube([w, h, 1]);
-  cylinder(r=10, h=5);
-}
-
 module scope_threads(scope_radius, scope_mount_height, angle, carrier_width, carrier_height)
 {
   rad = scope_radius + 1.5;
@@ -43,9 +36,7 @@ module bubblescope_mount()
 {
   difference()
   {
-    bracket_a(30, 30);
+    cylinder(r=10, h=5);
     scope_bracket(7, 5);
   }
 }
-
-bubblescope_mount();
