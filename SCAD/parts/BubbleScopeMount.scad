@@ -24,19 +24,22 @@ module scope_threads(scope_radius, scope_mount_height, angle, carrier_width, car
   }
 }
 
-module scope_bracket(scope_radius, scope_mount_height)
+module scope_bracket(scope_radius, scope_mount_height, threads)
 {
   translate([0, 0, -1])
     cylinder(r=scope_radius, h=scope_mount_height+2);
-  scope_threads(scope_radius, scope_mount_height, 45, 4, 1.2);
-  scope_threads(scope_radius, scope_mount_height, -135, 4, 1.2);
+    if(threads)
+    {
+      scope_threads(scope_radius, scope_mount_height, 45, 4, 1.2);
+      scope_threads(scope_radius, scope_mount_height, -135, 4, 1.2);
+    }
 }
 
-module bubblescope_mount()
+module bubblescope_mount(threads=true)
 {
   difference()
   {
     cylinder(r=10, h=5);
-    scope_bracket(7, 5);
+    scope_bracket(7, 5, threads);
   }
 }

@@ -5,7 +5,7 @@ module chipOpening() {
 	clearance = 0.5;
 	c = 2 * clearance;
 	translate([0,-9.5,0])
-		cube(size=[8+c,10+c,4],center=true);
+		cube(size=[8+c,10+c,5],center=true);
 }
 
 module lensOpening() {
@@ -33,8 +33,8 @@ module mountingHoles()
 module piCameraAdapter() {
 	difference() {
 		difference() {
-			translate([0, -2, -1.1])
-				cube([28, 28, 6], center=true);
+			translate([0, -2, -2.1])
+				cube([28, 28, 5], center=true);
 			mountingHoles();
 			lensOpening();
 			chipOpening();
@@ -50,7 +50,7 @@ rotate([0, 180, 0])
 			translate([0, 0, 4])
 				difference()
 				{
-					bubblescope_mount();
+					bubblescope_mount(threads=false);
 					mountingHoles();
 				}
 	}
