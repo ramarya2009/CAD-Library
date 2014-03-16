@@ -3,7 +3,8 @@ include <../primitives/circle_slice.scad>
 module scope_threads(scope_radius, scope_mount_height, angle, carrier_width, carrier_height)
 {
   rad = scope_radius + 1.5;
-  rotate([0, 0, angle])
+  offset_angle = -25;
+  rotate([0, 0, angle-offset_angle])
   {
     translate([0, 0, scope_mount_height-1.5])
       linear_extrude(height = carrier_height+1)
@@ -13,13 +14,8 @@ module scope_threads(scope_radius, scope_mount_height, angle, carrier_width, car
       linear_extrude(height = carrier_height)
       {
         Linear2DCircleSlice(rad, carrier_width);
-        rotate([0, 0, 90])
+        rotate([0, 0, offset_angle])
           Linear2DCircleSlice(rad, carrier_width);
-        intersection()
-        {
-          circle(rad);
-          square([rad, rad]);
-        }
       }
   }
 }

@@ -50,7 +50,7 @@ rotate([0, 180, 0])
 			translate([0, 0, 4])
 				difference()
 				{
-					bubblescope_mount(threads=false);
+					bubblescope_mount(threads=true);
 					mountingHoles();
 				}
 	}
