@@ -3,5 +3,7 @@
 
 # KiCAD temp files
 *.bak
+*.bck
 *.000
 *.net
+*.dcm
