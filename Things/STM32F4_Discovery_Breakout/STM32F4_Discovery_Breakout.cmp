@@ -1,0 +1,73 @@
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Tue 08 Apr 2014 15:55:36 BST
+
+BeginCmp
+TimeStamp = /53443799;
+Reference = P1;
+ValeurCmp = DIL14;
+IdModule  = pin_array_7x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53441130;
+Reference = P2;
+ValeurCmp = DIL16;
+IdModule  = pin_array_8x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53440C31;
+Reference = P3;
+ValeurCmp = DIL16;
+IdModule  = pin_array_8x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /534428B4;
+Reference = P4;
+ValeurCmp = DIL16;
+IdModule  = pin_array_8x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5344195D;
+Reference = P5;
+ValeurCmp = DIL16;
+IdModule  = pin_array_8x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53444BB6;
+Reference = P6;
+ValeurCmp = CONN_4;
+IdModule  = SIL-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /534454EF;
+Reference = P7;
+ValeurCmp = CONN_4;
+IdModule  = SIL-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /5343FD60;
+Reference = P8;
+ValeurCmp = CONN_2;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5343FD4C;
+Reference = P9;
+ValeurCmp = CONN_2;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5343FC52;
+Reference = U1;
+ValeurCmp = STM32F4;
+IdModule  = STM32F4_mount;
+EndCmp
+
+EndListe

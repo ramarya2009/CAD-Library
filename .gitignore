@@ -7,3 +7,5 @@
 *.000
 *.net
 *.dcm
+*-cache.lib
+*.kicad_pcb-bak
