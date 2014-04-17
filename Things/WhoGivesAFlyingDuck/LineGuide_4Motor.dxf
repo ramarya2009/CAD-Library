@@ -13,9 +13,63 @@ $HANDSEED
   5
 FFFF
   9
+$SPLINESEGS
+ 70
+8
+  9
+$DIMEXE
+ 40
+1.25
+  9
+$DIMLUNIT
+ 70
+2
+  9
+$GRIDMODE
+ 70
+1
+  9
+$INSUNITS
+ 70
+4
+  9
+$DIMADEC
+ 70
+2
+  9
 $DIMASZ
  40
 2.5
+  9
+$DIMGAP
+ 40
+0.625
+  9
+$DIMTXT
+ 40
+2.5
+  9
+$GRIDUNIT
+ 10
+0.0
+ 20
+0.0
+  9
+$DIMEXO
+ 40
+0.625
+  9
+$LUPREC
+ 70
+4
+  9
+$DIMAUNIT
+ 70
+0
+  9
+$AUPREC
+ 70
+2
   9
 $PLIMMIN
  10
@@ -23,35 +77,23 @@ $PLIMMIN
  20
 0.0
   9
-$DIMEXE
- 40
-1.25
-  9
-$DIMGAP
- 40
-0.625
+$LUNITS
+ 70
+2
   9
 $PLIMMAX
  10
-210.0
+100.0
  20
-297.0
-  9
-$INSUNITS
- 70
-4
+100.0
   9
 $DIMSTYLE
   2
 Standard
   9
-$DIMEXO
- 40
-0.625
-  9
-$DIMTXT
- 40
-2.5
+$AUNITS
+ 70
+0
   0
 ENDSEC
   0
