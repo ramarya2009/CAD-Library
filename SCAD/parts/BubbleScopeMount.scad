@@ -36,6 +36,16 @@ module bubblescope_mount(threads=true)
   difference()
   {
     cylinder(r=10, h=5);
-    scope_bracket(7, 5, threads);
+	union()
+	{
+    	scope_bracket(7, 5, threads);
+		translate([0, 0, 4.01])
+			difference()
+			{
+				cylinder(r=10.1, h=1);
+				translate([0, 0, -0.1])
+					cylinder(r=9, h=1.2);
+			}
+	}
   }
 }

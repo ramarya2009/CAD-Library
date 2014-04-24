@@ -36,10 +36,10 @@ module piCameraAdapter() {
 		{
 			translate([0, -2, -2.1])
 				cube([28, 28, 5], center=true);
-	   	translate([10, 0, -9])
-			  cylinder(r=3, h=6);
-		  translate([-10, 0, -9])
-			  cylinder(r=3, h=6);
+	   	translate([10, 0, -8])
+			  cylinder(r=3, h=5);
+		  translate([-10, 0, -8])
+			  cylinder(r=3, h=5);
 		}
 		mountingHoles();
 		lensOpening();
