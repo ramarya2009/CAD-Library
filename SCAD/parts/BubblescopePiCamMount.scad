@@ -32,13 +32,18 @@ module mountingHoles()
 
 module piCameraAdapter() {
 	difference() {
-		difference() {
+		union()
+		{
 			translate([0, -2, -2.1])
 				cube([28, 28, 5], center=true);
-			mountingHoles();
-			lensOpening();
-			chipOpening();
+	   	translate([10, 0, -9])
+			  cylinder(r=3, h=6);
+		  translate([-10, 0, -9])
+			  cylinder(r=3, h=6);
 		}
+		mountingHoles();
+		lensOpening();
+		chipOpening();
 	}
 }
 
