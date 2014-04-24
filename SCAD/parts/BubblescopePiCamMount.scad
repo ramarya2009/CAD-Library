@@ -28,6 +28,11 @@ module mountingHoles()
 		cylinder(r=radius, h=20);
 	translate([-dx, 0, dz])
 		cylinder(r=radius, h=20);
+
+  	translate([10, 0, dz+1.9])
+		cylinder(r=2.1, h=2.1);
+	translate([-10, 0, dz+1.9])
+		cylinder(r=2.1, h=2.1);
 }
 
 module piCameraAdapter() {
@@ -36,26 +41,26 @@ module piCameraAdapter() {
 		{
 			translate([0, -2, -2.1])
 				cube([28, 28, 5], center=true);
-	   	translate([10, 0, -8])
-			  cylinder(r=3, h=5);
-		  translate([-10, 0, -8])
-			  cylinder(r=3, h=5);
+	   		translate([10, 0, -8])
+				cylinder(r=3, h=5);
+		  	translate([-10, 0, -8])
+				cylinder(r=3, h=5);
 		}
-		mountingHoles();
 		lensOpening();
 		chipOpening();
 	}
 }
 
+$fn = 64;
 rotate([0, 180, 0])
-	union()
+	difference()
 	{
-		piCameraAdapter();
-		rotate([0, 180, 0])
-			translate([0, 0, 4])
-				difference()
-				{
+		union()
+		{
+			piCameraAdapter();
+			rotate([0, 180, 0])
+				translate([0, 0, 4])
 					bubblescope_mount(threads=true);
-					mountingHoles();
-				}
+		}
+		mountingHoles();
 	}
