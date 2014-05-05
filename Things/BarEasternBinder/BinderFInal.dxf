@@ -21251,6 +21251,470 @@ ByLayer
  40
 3.0
   0
+ARC
+  5
+176
+100
+AcDbEntity
+  8
+Cut
+ 62
+256
+370
+-1
+  6
+ByLayer
+100
+AcDbCircle
+ 10
+347.0
+ 20
+13.0
+ 30
+0.0
+ 40
+2.0
+100
+AcDbArc
+ 50
+90.0
+ 51
+180.0
+  0
+LINE
+  5
+177
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Cut
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+345.0
+ 20
+13.0
+ 30
+0.0
+ 11
+345.0
+ 21
+12.0
+ 31
+0.0
+  0
+ARC
+  5
+178
+100
+AcDbEntity
+  8
+Cut
+ 62
+256
+370
+-1
+  6
+ByLayer
+100
+AcDbCircle
+ 10
+347.0
+ 20
+12.0
+ 30
+0.0
+ 40
+2.0
+100
+AcDbArc
+ 50
+180.0
+ 51
+270.0
+  0
+LINE
+  5
+179
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Cut
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+347.0
+ 20
+10.0
+ 30
+0.0
+ 11
+353.0
+ 21
+10.0
+ 31
+0.0
+  0
+ARC
+  5
+17A
+100
+AcDbEntity
+  8
+Cut
+ 62
+256
+370
+-1
+  6
+ByLayer
+100
+AcDbCircle
+ 10
+353.0
+ 20
+12.0
+ 30
+0.0
+ 40
+2.0
+100
+AcDbArc
+ 50
+270.0
+ 51
+0.0
+  0
+LINE
+  5
+17B
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Cut
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+355.0
+ 20
+12.0
+ 30
+0.0
+ 11
+355.0
+ 21
+13.0
+ 31
+0.0
+  0
+LINE
+  5
+17C
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Cut
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+353.0
+ 20
+15.0
+ 30
+0.0
+ 11
+347.0
+ 21
+15.0
+ 31
+0.0
+  0
+ARC
+  5
+17D
+100
+AcDbEntity
+  8
+Cut
+ 62
+256
+370
+-1
+  6
+ByLayer
+100
+AcDbCircle
+ 10
+353.0
+ 20
+13.0
+ 30
+0.0
+ 40
+2.0
+100
+AcDbArc
+ 50
+0.0
+ 51
+90.0
+  0
+ARC
+  5
+17E
+100
+AcDbEntity
+  8
+Cut
+ 62
+256
+370
+-1
+  6
+ByLayer
+100
+AcDbCircle
+ 10
+346.9999999999999432
+ 20
+237.0000000000000284
+ 30
+0.0
+ 40
+2.0
+100
+AcDbArc
+ 50
+180.0
+ 51
+270.0
+  0
+LINE
+  5
+17F
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Cut
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+345.0
+ 20
+237.0
+ 30
+0.0
+ 11
+344.9999999999999432
+ 21
+238.0
+ 31
+0.0
+  0
+ARC
+  5
+180
+100
+AcDbEntity
+  8
+Cut
+ 62
+256
+370
+-1
+  6
+ByLayer
+100
+AcDbCircle
+ 10
+346.9999999999999432
+ 20
+238.0
+ 30
+0.0
+ 40
+2.0
+100
+AcDbArc
+ 50
+90.0
+ 51
+180.0
+  0
+LINE
+  5
+181
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Cut
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+346.9999999999999432
+ 20
+240.0
+ 30
+0.0
+ 11
+353.0
+ 21
+240.0
+ 31
+0.0
+  0
+ARC
+  5
+182
+100
+AcDbEntity
+  8
+Cut
+ 62
+256
+370
+-1
+  6
+ByLayer
+100
+AcDbCircle
+ 10
+353.0
+ 20
+238.0
+ 30
+0.0
+ 40
+2.0
+100
+AcDbArc
+ 50
+0.0
+ 51
+90.0
+  0
+LINE
+  5
+183
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Cut
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+355.0
+ 20
+238.0
+ 30
+0.0
+ 11
+355.0
+ 21
+237.0
+ 31
+0.0
+  0
+LINE
+  5
+184
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Cut
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+352.9999999999999432
+ 20
+235.0
+ 30
+0.0
+ 11
+347.0
+ 21
+235.0
+ 31
+0.0
+  0
+ARC
+  5
+185
+100
+AcDbEntity
+  8
+Cut
+ 62
+256
+370
+-1
+  6
+ByLayer
+100
+AcDbCircle
+ 10
+353.0
+ 20
+237.0
+ 30
+0.0
+ 40
+2.0
+100
+AcDbArc
+ 50
+270.0
+ 51
+0.0
+  0
 ENDSEC
   0
 SECTION
@@ -21289,7 +21753,7 @@ E
   3
 AcDbVariableDictionary
 350
-176
+186
   0
 DICTIONARY
   5
@@ -21753,7 +22217,7 @@ Layout2
   0
 DICTIONARY
   5
-176
+186
 100
 AcDbDictionary
 281
@@ -21761,15 +22225,15 @@ AcDbDictionary
   3
 DIMASSOC
 350
-178
+188
   3
 HIDETEXT
 350
-177
+187
   0
 DICTIONARYVAR
   5
-177
+187
 100
 DictionaryVariables
 280
@@ -21779,7 +22243,7 @@ DictionaryVariables
   0
 DICTIONARYVAR
   5
-178
+188
 100
 DictionaryVariables
 280
