@@ -1,0 +1,31 @@
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Tue 13 May 2014 19:27:43 BST
+
+BeginCmp
+TimeStamp = /537263BD;
+Reference = SHIELD1;
+ValeurCmp = ARDUINO_SHIELD;
+IdModule  = ARDUINO SHIELD;
+EndCmp
+
+BeginCmp
+TimeStamp = /537249B6;
+Reference = SW1;
+ValeurCmp = SWITCH_INV;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /53724665;
+Reference = U1;
+ValeurCmp = NRF24;
+IdModule  = pin_array_4x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53724AE1;
+Reference = U2;
+ValeurCmp = NRF24;
+IdModule  = pin_array_4x2;
+EndCmp
+
+EndListe

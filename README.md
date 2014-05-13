@@ -12,3 +12,4 @@ Credits
 
   - Raspberry Pi main board was adapted from DXF found [here](http://www.raspberry-projects.com/pi/pi-hardware/model-b-cad).
   - Raspberry Pi camera module mount was adapted from [this thing](http://www.thingiverse.com/thing:214466).
+  - Arduino KiCAD parts by [nicholasclewis](http://www.thingiverse.com/thing:6430)
