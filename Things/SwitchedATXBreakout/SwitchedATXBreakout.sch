@@ -1,0 +1,249 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:connector
+EELAYER 24 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ATX24 P1
+U 1 1 5373755B
+P 2800 2150
+F 0 "P1" H 2550 2800 60  0000 C CNN
+F 1 "ATX24" H 2950 2800 60  0000 C CNN
+F 2 "" H 2800 3500 60  0000 C CNN
+F 3 "" H 2800 3500 60  0000 C CNN
+	1    2800 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 1600 2100 1600
+Wire Wire Line
+	2100 1500 2100 1700
+Wire Wire Line
+	2100 1700 2200 1700
+Wire Wire Line
+	2100 1500 3600 1500
+Wire Wire Line
+	3500 1500 3500 1600
+Wire Wire Line
+	3500 1600 3400 1600
+Connection ~ 2100 1600
+Wire Wire Line
+	1900 2500 2200 2500
+Wire Wire Line
+	2100 2500 2100 2600
+Wire Wire Line
+	2100 2600 2200 2600
+Wire Wire Line
+	3400 1800 3600 1800
+Wire Wire Line
+	3500 1800 3500 2200
+Wire Wire Line
+	3500 2200 3400 2200
+Wire Wire Line
+	3400 2100 3500 2100
+Connection ~ 3500 2100
+Wire Wire Line
+	3500 2000 3400 2000
+Connection ~ 3500 2000
+Wire Wire Line
+	3400 2400 3600 2400
+Wire Wire Line
+	3500 2400 3500 2600
+Wire Wire Line
+	3500 2600 3400 2600
+Wire Wire Line
+	3400 2500 3500 2500
+Connection ~ 3500 2500
+Wire Wire Line
+	2200 1800 2100 1800
+Wire Wire Line
+	2100 1800 2100 2200
+Wire Wire Line
+	1900 2200 2200 2200
+Wire Wire Line
+	2200 2000 2100 2000
+Connection ~ 2100 2000
+$Comp
+L -12V #PWR?
+U 1 1 53737642
+P 3600 1700
+F 0 "#PWR?" H 3600 1830 20  0001 C CNN
+F 1 "-12V" H 3600 1800 30  0000 C CNN
+F 2 "" H 3600 1700 60  0000 C CNN
+F 3 "" H 3600 1700 60  0000 C CNN
+	1    3600 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3V3 #PWR?
+U 1 1 53737651
+P 3600 1500
+F 0 "#PWR?" H 3600 1600 40  0001 C CNN
+F 1 "3V3" H 3600 1625 40  0000 C CNN
+F 2 "" H 3600 1500 60  0000 C CNN
+F 3 "" H 3600 1500 60  0000 C CNN
+	1    3600 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3V3 #PWR?
+U 1 1 53737660
+P 1900 2700
+F 0 "#PWR?" H 1900 2800 40  0001 C CNN
+F 1 "3V3" H 1900 2825 40  0000 C CNN
+F 2 "" H 1900 2700 60  0000 C CNN
+F 3 "" H 1900 2700 60  0000 C CNN
+	1    1900 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR?
+U 1 1 5373766F
+P 1900 2500
+F 0 "#PWR?" H 1900 2450 20  0001 C CNN
+F 1 "+12V" H 1900 2600 30  0000 C CNN
+F 2 "" H 1900 2500 60  0000 C CNN
+F 3 "" H 1900 2500 60  0000 C CNN
+	1    1900 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L -5V #PWR?
+U 1 1 5373767E
+P 3600 2300
+F 0 "#PWR?" H 3600 2440 20  0001 C CNN
+F 1 "-5V" H 3600 2410 30  0000 C CNN
+F 2 "" H 3600 2300 60  0000 C CNN
+F 3 "" H 3600 2300 60  0000 C CNN
+	1    3600 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 1900 2200 1900
+Wire Wire Line
+	2000 1900 2000 2100
+Wire Wire Line
+	2000 2100 2200 2100
+Connection ~ 2100 2500
+Wire Wire Line
+	2200 2700 1900 2700
+Wire Wire Line
+	3400 2300 3600 2300
+Wire Wire Line
+	3400 1700 3600 1700
+Connection ~ 3500 1500
+$Comp
+L +5V #PWR?
+U 1 1 5373774F
+P 1900 1900
+F 0 "#PWR?" H 1900 1990 20  0001 C CNN
+F 1 "+5V" H 1900 1990 30  0000 C CNN
+F 2 "" H 1900 1900 60  0000 C CNN
+F 3 "" H 1900 1900 60  0000 C CNN
+	1    1900 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5373775E
+P 3600 2400
+F 0 "#PWR?" H 3600 2490 20  0001 C CNN
+F 1 "+5V" H 3600 2490 30  0000 C CNN
+F 2 "" H 3600 2400 60  0000 C CNN
+F 3 "" H 3600 2400 60  0000 C CNN
+	1    3600 2400
+	1    0    0    -1  
+$EndComp
+Connection ~ 3500 2400
+Connection ~ 2000 1900
+$Comp
+L GND #PWR?
+U 1 1 53737815
+P 3600 1800
+F 0 "#PWR?" H 3600 1800 30  0001 C CNN
+F 1 "GND" H 3600 1730 30  0001 C CNN
+F 2 "" H 3600 1800 60  0000 C CNN
+F 3 "" H 3600 1800 60  0000 C CNN
+	1    3600 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 53737833
+P 1900 2200
+F 0 "#PWR?" H 1900 2200 30  0001 C CNN
+F 1 "GND" H 1900 2130 30  0001 C CNN
+F 2 "" H 1900 2200 60  0000 C CNN
+F 3 "" H 1900 2200 60  0000 C CNN
+	1    1900 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 53737842
+P 3600 2700
+F 0 "#PWR?" H 3600 2700 30  0001 C CNN
+F 1 "GND" H 3600 2630 30  0001 C CNN
+F 2 "" H 3600 2700 60  0000 C CNN
+F 3 "" H 3600 2700 60  0000 C CNN
+	1    3600 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 2700 3600 2700
+Connection ~ 3500 1800
+Connection ~ 2100 2200
+Text Label 3800 1900 0    60   ~ 0
+PWR_ON
+Text Label 1700 2300 2    60   ~ 0
+PWR_GOOD
+Text Label 1700 2400 2    60   ~ 0
+5V_SB
+Wire Wire Line
+	3400 1900 3800 1900
+Wire Wire Line
+	1700 2300 2200 2300
+Wire Wire Line
+	1700 2400 2200 2400
+$EndSCHEMATC
