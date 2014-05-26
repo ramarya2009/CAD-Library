@@ -155,17 +155,6 @@ F 3 "" H 1400 1700 60  0000 C CNN
 	1    1400 1700
 	1    0    0    -1  
 $EndComp
-$Comp
-L GND #PWR?
-U 1 1 53737842
-P 3100 2200
-F 0 "#PWR?" H 3100 2200 30  0001 C CNN
-F 1 "GND" H 3100 2130 30  0001 C CNN
-F 2 "" H 3100 2200 60  0000 C CNN
-F 3 "" H 3100 2200 60  0000 C CNN
-	1    3100 2200
-	1    0    0    -1  
-$EndComp
 Text Label 3300 1400 0    60   ~ 0
 PWR_ON
 Text Label 1200 1800 2    60   ~ 0
@@ -527,17 +516,6 @@ NoConn ~ 5800 6500
 NoConn ~ 6600 6400
 NoConn ~ 6600 6600
 $Comp
-L +3.3V #PWR?
-U 1 1 537C9789
-P 5700 6100
-F 0 "#PWR?" H 5700 6060 30  0001 C CNN
-F 1 "+3.3V" H 5700 6210 30  0000 C CNN
-F 2 "" H 5700 6100 60  0000 C CNN
-F 3 "" H 5700 6100 60  0000 C CNN
-	1    5700 6100
-	1    0    0    -1  
-$EndComp
-$Comp
 L PNP Q3
 U 1 1 5381C5B3
 P 4800 3300
@@ -635,8 +613,6 @@ Wire Wire Line
 Connection ~ 3000 1000
 Connection ~ 3000 1900
 Connection ~ 1500 1400
-Wire Wire Line
-	2900 2200 3100 2200
 Connection ~ 3000 1300
 Connection ~ 1600 1700
 Wire Wire Line
@@ -1163,4 +1139,16 @@ Text Label 10500 2100 1    60   ~ 0
 -5V_OUT
 Text Label 10500 4200 1    60   ~ 0
 -12V_OUT
+$Comp
+L 3V3 #PWR?
+U 1 1 53827A5A
+P 5700 6100
+F 0 "#PWR?" H 5700 6200 40  0001 C CNN
+F 1 "3V3" H 5700 6225 40  0000 C CNN
+F 2 "" H 5700 6100 60  0000 C CNN
+F 3 "" H 5700 6100 60  0000 C CNN
+	1    5700 6100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2900 2200
 $EndSCHEMATC
