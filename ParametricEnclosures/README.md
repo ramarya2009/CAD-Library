@@ -10,4 +10,3 @@ To Do
 
 *  Generic n-sided braced box
 *  4 sided finger joint box
-*  Makefile

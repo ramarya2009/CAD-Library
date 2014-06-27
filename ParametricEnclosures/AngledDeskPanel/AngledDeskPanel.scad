@@ -31,7 +31,7 @@ module LHAngleEnclosure_EndBrace()
 {
 	difference()
 	{
-		LHAngleEnclosure_EndPanel(panel_length, panel_angle, circle_radius+material_thickness+outer_padding);
+		LHAngleEnclosure_EndPanel(panel_length, panel_angle, (circle_radius + material_thickness + outer_padding));
 		difference()
 		{
 			LHAngleEnclosure_EndPanel(panel_length, panel_angle, (circle_radius + material_thickness));
@@ -50,13 +50,13 @@ module LHAngleEnclosure_MainSection()
 	square([panel_width, dx]);
 
 	translate([0, dx])
-		LivingHinge(panel_width, hinge_A_length);
+		LivingHinge(panel_width, hinge_A_length, num_hinge_slots, hinge_sep_x, hinge_sep_y);
 
 	translate([0, (dx + hinge_A_length)])
 		square([panel_width, panel_length]);
 
 	translate([0, (dx + hinge_A_length + panel_length)])
-		LivingHinge(panel_width, hinge_B_length);
+		LivingHinge(panel_width, hinge_B_length, num_hinge_slots, hinge_sep_x, hinge_sep_y);
 
 	translate([0, (dx + hinge_A_length + panel_length + hinge_B_length)])
 		square([panel_width, dy]);
