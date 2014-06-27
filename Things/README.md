@@ -6,4 +6,4 @@ A variety of things I have created, some are fairly generic and could be used ea
 Credits
 -------
 
-	-	```LivingHingeBox_3mmMDF.dxf``` was originally designed by Paul Nixon.
+- ```LivingHingeBox_3mmMDF.dxf``` was originally designed by Paul Nixon.
