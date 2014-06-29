@@ -24,9 +24,7 @@ module LivingHinge(width, height, num_slots=10, dx=2, dy=1)
 				if((r % 2) == 0)
 				{
 					for(x = [(dx / 2) : (slot_width + dx) : (width - slot_width)])
-          {
 						LH_Gap((x + (slot_width / 2)), slot_width, (r % 2));
-          }
 				}
 				else
 				{
