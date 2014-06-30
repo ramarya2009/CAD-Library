@@ -6,6 +6,6 @@
  * 29/06/2014
  */
 
-module LH_Gap(x, width, step)
+module LH_Gap_SHAPE(x, width, step)
 {
 }

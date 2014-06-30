@@ -6,7 +6,7 @@
  * 29/06/2014
  */
 
-module LH_Gap(x, width, step)
+module LH_Gap_Rectangle(x, width, step)
 {
 	x2 = (width / 2);
   translate([(x + x2), 0.1])
