@@ -1,11 +1,11 @@
-//Width and height of front angled panel section
-panel_length        = 100;
-panel_width         = 80;
+//Width and length for each box face
+face_length         = 100;
+box_width           = 80;
 
-//Angle of front panel relative to bottom panel
-panel_angle         = 35;
+//Number of faces on the box
+num_faces           = 4;
 
-//Radius of living hinge curves at top and bottom of angles panel
+//Radius of living hinge curves for each corner
 circle_radius       = 10;
 
 //Amount of material to add to outside brace and end panel
@@ -21,5 +21,5 @@ hinge_sep_y         = 1;
 //Number of living hinge slots across the width of the hinge
 num_hinge_slots     = 8;
 
-//Type of gap to use on living hinges
-hinge_gap_type      = GAP_DIAMOND;
+//Type of hinge gap to use
+hinge_gap_type      = 0;

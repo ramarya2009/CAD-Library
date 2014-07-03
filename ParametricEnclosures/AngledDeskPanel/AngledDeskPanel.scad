@@ -1,4 +1,4 @@
-include <../../SCAD/parts/ParametricLivingHinge.scad>
+include <../../SCAD/living_hinge/HingeMain.scad>
 include <config.scad>
 
 function get_dx(panel_length, panel_angle) =
@@ -47,17 +47,19 @@ module LHAngleEnclosure_MainSection()
 	dx = get_dx(panel_length, panel_angle);
 	dy = get_dy(panel_length, panel_angle);
 
-	square([panel_width, dx]);
+	width = panel_width + (2 * material_thickness);
+
+	square([width, dx]);
 
 	translate([0, dx])
-		LivingHinge(panel_width, hinge_A_length, num_hinge_slots, hinge_sep_x, hinge_sep_y);
+		LivingHinge(width, hinge_A_length, num_hinge_slots, dx=hinge_sep_x, dy=hinge_sep_y, gap=hinge_gap_type);
 
 	translate([0, (dx + hinge_A_length)])
-		square([panel_width, panel_length]);
+		square([width, panel_length]);
 
 	translate([0, (dx + hinge_A_length + panel_length)])
-		LivingHinge(panel_width, hinge_B_length, num_hinge_slots, hinge_sep_x, hinge_sep_y);
+		LivingHinge(width, hinge_B_length, num_hinge_slots, dx=hinge_sep_x, dy=hinge_sep_y, gap=hinge_gap_type);
 
 	translate([0, (dx + hinge_A_length + panel_length + hinge_B_length)])
-		square([panel_width, dy]);
+		square([width, dy]);
 }

@@ -30,7 +30,7 @@ module LivingHinge(width, height, num_slots=10, dx=2, dy=1, gap=GAP_RECTANGLE)
 				}
 				else
 				{
-					for(x = [0 : (slot_width + dx) : (width)])
+					for(x = [0 : (slot_width + dx) : (width + 1)])
 						LH_Gap((x), slot_width, (r % 2), gap);
 				}
 			}
