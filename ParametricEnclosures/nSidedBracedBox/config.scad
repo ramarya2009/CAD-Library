@@ -2,8 +2,8 @@
 material_thickness  = 3.1;
 
 //Width and length for each box face
-face_length         = 50;
-box_width           = (2 * material_thickness) + 80;
+face_length         = 25;
+box_width           = (2 * material_thickness) + 50;
 
 //Number of faces on the box
 num_faces           = 6;
@@ -22,4 +22,4 @@ hinge_sep_y         = 1;
 num_hinge_slots     = 8;
 
 //Type of hinge gap to use
-hinge_gap_type      = GAP_DIAMOND;
+hinge_gap_type      = GAP_RECTANGLE;
