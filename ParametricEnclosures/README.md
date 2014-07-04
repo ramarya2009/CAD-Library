@@ -8,5 +8,5 @@ Partially to end up with some nice reusable enclosure designs, mainly to get to 
 To Do
 -----
 
-*  Generic n-sided braced box
+*  Generic n-sided box with finger joint lid
 *  4 sided finger joint box
