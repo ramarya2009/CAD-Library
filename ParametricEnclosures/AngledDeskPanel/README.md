@@ -1,7 +1,7 @@
-n Sided Braced Living Hinge Box
-===============================
+Angled Desk Panel
+=================
 
-A parametric n sided box with living hinge corners and braced sides/lid.
+An angled desk top panel.
 
 Building
 --------

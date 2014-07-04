@@ -1,6 +1,9 @@
+//Thickness of material (+ tolerance)
+material_thickness  = 3.1;
+
 //Width and height of front angled panel section
 panel_length        = 100;
-panel_width         = 80;
+panel_width         = (2 * material_thickness) + 80;
 
 //Angle of front panel relative to bottom panel
 panel_angle         = 35;
@@ -10,9 +13,6 @@ circle_radius       = 10;
 
 //Amount of material to add to outside brace and end panel
 outer_padding       = 5;
-
-//Thickness of material (+ tolerance)
-material_thickness  = 3.1;
 
 //Hinge slot separation
 hinge_sep_x         = 2;
