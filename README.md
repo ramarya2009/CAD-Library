@@ -1,7 +1,7 @@
 CAD
 ===
 
-A selection of CAD drawings for off the shelf parts and a few things I have made which may be of use to others.
+A selection of CAD drawings for off the shelf parts, several parametric enclosure designs and a few things I have made which may be of use to others.
 
 Note that not all dimensions are guaranteed to be accurate, always double check before manufacture.
 
