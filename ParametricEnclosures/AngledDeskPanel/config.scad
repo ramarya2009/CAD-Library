@@ -2,7 +2,7 @@
 material_thickness  = 3.1;
 
 //Width and height of front angled panel section
-panel_length        = 100;
+panel_length        = 80;
 panel_width         = (2 * material_thickness) + 80;
 
 //Angle of front panel relative to bottom panel

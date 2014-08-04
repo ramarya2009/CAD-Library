@@ -1,15 +1,18 @@
+out_dir = ./dxf
+
 all: main_panel side_panel side_brace
 
 clean:
-	rm MainPanel.dxf
-	rm SidePanel.dxf
-	rm SideBrace.dxf
+	rm -rf $(out_dir)
 
-main_panel:
-	openscad MainPanel.scad -o MainPanel.dxf
+output_folder:
+	mkdir -p $(out_dir)
 
-side_panel:
-	openscad SidePanel.scad -o SidePanel.dxf
+main_panel: output_folder
+	openscad MainPanel.scad -o $(out_dir)/MainPanel.dxf
 
-side_brace:
-	openscad SideBrace.scad -o SideBrace.dxf
+side_panel: output_folder
+	openscad SidePanel.scad -o $(out_dir)/SidePanel.dxf
+
+side_brace: output_folder
+	openscad SideBrace.scad -o $(out_dir)/SideBrace.dxf

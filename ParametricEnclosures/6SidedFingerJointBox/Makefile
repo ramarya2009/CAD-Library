@@ -1,21 +1,23 @@
+out_dir = ./dxf
+
 all: machine_parts all_panels
 
 machine_parts: front_back left_right top_bottom
 
 clean:
-	rm front_back.dxf
-	rm left_right.dxf
-	rm top_bottom.dxf
-	rm all_panels.dxf
+	rm -rf $(out_dir)
 
-front_back:
-	openscad front_back.scad -o front_back.dxf
+output_folder:
+	mkdir -p $(out_dir)
 
-left_right:
-	openscad left_right.scad -o left_right.dxf
+front_back: output_folder
+	openscad front_back.scad -o $(out_dir)/front_back.dxf
 
-top_bottom:
-	openscad top_bottom.scad -o top_bottom.dxf
+left_right: output_folder
+	openscad left_right.scad -o $(out_dir)/left_right.dxf
 
-all_panels:
-	openscad all_panels.scad -o all_panels.dxf
+top_bottom: output_folder
+	openscad top_bottom.scad -o $(out_dir)/top_bottom.dxf
+
+all_panels: output_folder
+	openscad all_panels.scad -o $(out_dir)/all_panels.dxf
