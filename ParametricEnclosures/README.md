@@ -18,8 +18,3 @@ Configuration
 -------------
 
 Design configuration is done in an enclosure's ```config.scad``` which contains documentation on the function of each option.
-
-To Do
------
-
-*  Generic n-sided box with finger joint lid
