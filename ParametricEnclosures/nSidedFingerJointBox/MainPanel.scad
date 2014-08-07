@@ -8,12 +8,28 @@ square([box_width, (face_length / 2)]);
 translate([0, (face_length / 2)])
 			LivingHinge(box_width, hinge_len, num_hinge_slots, dx=hinge_sep_x, dy=hinge_sep_y, gap=hinge_gap_type);
 
+rotate(90)
+	finger_joint((face_length / 2), material_thickness, ((joint_finger_count / 2) + 1), false);
+
+translate([(box_width + material_thickness), 0])
+	rotate(90)
+		finger_joint((face_length / 2), material_thickness, ((joint_finger_count / 2) + 1), false);
+
 for(i = [2 : num_faces])
 {
 	assign(y = ((i - 2) * y_trans_coeff) + y_trans_const)
 	{
 		translate([0, y])
+		{
 			square([box_width, face_length]);
+			
+			rotate(90)
+				finger_joint(face_length, material_thickness, joint_finger_count, false);
+
+			translate([(box_width + material_thickness), 0])
+				rotate(90)
+					finger_joint(face_length, material_thickness, joint_finger_count, false);
+		}
 
 		translate([0, (y + face_length)])
 			LivingHinge(box_width, hinge_len, num_hinge_slots, dx=hinge_sep_x, dy=hinge_sep_y, gap=hinge_gap_type);
@@ -21,4 +37,13 @@ for(i = [2 : num_faces])
 }
 
 translate([0, (((num_faces - 1) * y_trans_coeff) + y_trans_const)])
+{
 	square([box_width, (face_length / 2)]);
+
+	rotate(90)
+		finger_joint((face_length / 2), material_thickness, ((joint_finger_count / 2) + 1), false);
+
+	translate([(box_width + material_thickness), 0])
+		rotate(90)
+			finger_joint((face_length / 2), material_thickness, ((joint_finger_count / 2) + 1), false);
+}

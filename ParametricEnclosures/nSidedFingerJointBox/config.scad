@@ -8,6 +8,9 @@ box_width           = 50;
 //Number of faces on the box
 num_faces           = 6;
 
+//Number of finger to use on a standard joint on main panel
+joint_finger_count = 4;
+
 //Radius of living hinge curves for each corner
 circle_radius       = 10;
 
