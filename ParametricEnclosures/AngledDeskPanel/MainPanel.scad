@@ -1,7 +1,7 @@
 include <AngledDeskPanel.scad>
 
-hinge_A_length = get_used_circ(panel_angle, circle_radius);
-hinge_B_length = get_used_circ((90-panel_angle), circle_radius);
+hinge_A_length = get_used_circ(panel_angle, circle_radius) + circle_radius;
+hinge_B_length = get_used_circ((90-panel_angle), circle_radius) + circle_radius;
 dx = get_dx(panel_length, panel_angle);
 dy = get_dy(panel_length, panel_angle);
 
