@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Downloads KiCAD libraries from http://library.oshec.org/
+
+dir=./public_libs
+file="oshec_libs.tar.gz"
+
+wget http://library.oshec.org/all.tar.gz -O "$dir/$file"
+cd "$dir"
+tar -zxvf "$file"
+rm "$file"
