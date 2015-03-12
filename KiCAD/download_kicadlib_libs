@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Downloads libraries from http://www.kicadlib.org/
+
+dir=./public_libs
+
+echo "Getting download list..."
+lib_urls=(`./get_kicadlib_listing`)
+
+mkdir -p "$dir"
+
+for url in ${lib_urls[@]}
+do
+  wget $url -O "$dir/lib.zip"
+  unzip "$dir/lib.zip" *.lib -d "$dir"
+  unzip "$dir/lib.zip" *.mod -d "$dir"
+  rm "$dir/lib.zip"
+done

@@ -1,0 +1,21 @@
+#!/usr/bin/python
+
+"""
+Gets a list of all the module libraries from http://www.kicadlib.org/
+and a link to the .zip download.
+"""
+
+from BeautifulSoup import BeautifulSoup
+import urllib2
+import re
+
+site_url = 'http://www.kicadlib.org/'
+
+page = urllib2.urlopen(site_url)
+soup = BeautifulSoup(page)
+links = set()
+for link in soup.findAll('a', attrs={'href': re.compile('modules/(.*).zip')}):
+    links.add(link.get('href'))
+
+for l in links:
+    print site_url + l
