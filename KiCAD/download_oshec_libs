@@ -9,3 +9,5 @@ wget http://library.oshec.org/all.tar.gz -O "$dir/$file"
 cd "$dir"
 tar -zxvf "$file"
 rm "$file"
+
+mv converted oshec_converted

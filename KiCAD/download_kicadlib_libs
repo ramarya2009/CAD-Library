@@ -2,7 +2,7 @@
 
 # Downloads libraries from http://www.kicadlib.org/
 
-dir=./public_libs
+dir=./public_libs/kicadlib
 
 echo "Getting download list..."
 lib_urls=(`./get_kicadlib_listing`)
