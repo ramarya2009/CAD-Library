@@ -9,3 +9,6 @@
 *.dcm
 *-cache.lib
 *.kicad_pcb-bak
+
+# EAGLE temp files
+*.l#*
