@@ -7,6 +7,8 @@ Note that not all dimensions are guaranteed to be accurate, always double check 
 
 Pin labels usually list special functions first and disregard generic functions (e.g. RasPi pin 3 is labelled as SDA, not GPIO 0/2).
 
+The selection of things is now [here](https://github.com/DanNixon/CAD-Things).
+
 Credits
 -------
 

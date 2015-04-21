@@ -1,3 +1,0 @@
-include <TabletRetentionClip.scad>
-
-RetentionClip();
